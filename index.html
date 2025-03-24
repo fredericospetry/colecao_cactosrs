@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coleção de Publicações CACTOS RS</title>
 
-    <!-- Google Fonts - Cactus Classical Serif -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap" rel="stylesheet">
@@ -22,19 +21,19 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: url('fundo.jpg') no-repeat center center fixed; /* Imagem de fundo */
-            background-size: cover; /* Cobrir toda a área */
+            background: url('fundo.jpg') no-repeat center center fixed;
+            background-size: cover;
             font-family: Arial, sans-serif;
             overflow: hidden;
             perspective: 1000px;
         }
 
         .quadro {
-            background: rgba(0, 0, 0, 0.1); /* Fundo preto com 10% de opacidade */
-            padding: 1px 10px 10px 10px; /* Ajuste o padding superior para 10px */
-            border-radius: 20px; /* Bordas arredondadas */
-            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
-            backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */
+            background: rgba(0, 0, 0, 0.1);
+            padding: 1px 10px 10px 10px;
+            border-radius: 20px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(10px);
         }
 
         /* Container geral */
@@ -47,7 +46,7 @@
             font-family: "Cactus Classical Serif", serif;
             font-weight: 600;
             font-size: 42px;
-            color: #5c5c5c; /* Texto branco para melhor contraste */
+            color: #5c5c5c;
             text-shadow:
             2px 2px 5px #000,
         4px 4px 5px #000,
@@ -88,7 +87,7 @@
         /* Efeito de rotação 3D e sombra ao passar o mouse */
         .image-link:hover {
             transform: rotateY(20deg) rotateX(10deg) scale(1.1);
-            box-shadow: 0px 20px 40px rgba(255, 255, 255, 0.3); /* Sombra branca para contraste */
+            box-shadow: 0px 20px 40px rgba(255, 255, 255, 0.3);
         }
 
         /* Adiciona uma sombra atrás da imagem */
@@ -118,7 +117,7 @@
         .copyright {
             margin-top: 50px;
             text-align: center;
-            color: rgb(255, 255, 255); /* Texto branco para melhor contraste */
+            color: rgb(255, 255, 255);
             font-family: "Cactus Classical Serif", serif;
             text-shadow:
                 2px 2px 0 #000,
@@ -134,40 +133,33 @@
         }
 
         .copyright a {
-            color: #cacaca; /* Azul claro para links */
+            color: #cacaca;
             text-decoration: none;
             transition: color 0.3s ease;
         }
 
         .copyright a:hover {
-            color: #00b60f; /* Branco ao passar o mouse */
+            color: #00b60f;
         }
     </style>
 </head>
 
 <body>
     <div class="content-container">
-        <!-- Quadro semi-transparente -->
         <div class="quadro">
-            <!-- Título acima das imagens -->
             <div class="title-container">
                 <h1>Coleção de Publicações<br><strong>CACTOS RS</strong></h1>
             </div>
 
             <!-- Container das imagens -->
             <div class="image-container">
-                <!-- Link 1 -->
                 <a href="https://cactosrs.netlify.app/" target="_blank" class="image-link">
                     <img src="img1.png" alt="Cactos RS">
                 </a>
-
-                <!-- Link 2 -->
                 <a href="https://guia-de-cultivo-de-cactos.netlify.app/" target="_blank" class="image-link">
                     <img src="img2.png" alt="Guia de Cultivo de Cactos">
                 </a>
             </div>
-
-            <!-- Copyright -->
             <div class="copyright">
                 <p>© 2016 <a href="https://www.sema.rs.gov.br/upload/arquivos/201708/25132604-cactos-do-rio-grande-do-sul-compressed.pdf"
                         target="_blank">Cactos do Rio Grande do Sul</a></p>
